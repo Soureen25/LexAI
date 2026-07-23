@@ -9,6 +9,7 @@ from datetime import datetime
 
 from risk_pdf import generate_risk_pdf
 from doc_preview import render_pdf_pages, ocr_image_text, MAX_PREVIEW_PAGES
+from redline_docx import build_redline_docx
 
 # ─────────────────────────────────────────────
 #  CONFIG
@@ -439,7 +440,7 @@ if docs:
                 btn_label = "🔄 Re-analyse"
             else:
                 btn_label = "▶ Analyse"
-            if st.button(btn_label, key=f"analysebtn_{key}", use_container_width=True, disabled=not can_analyse):
+            if st.button(btn_label, key=f"analysebtn_{key}", width="stretch", disabled=not can_analyse):
                 analyse_key = key
 
         if d.get("error"):
@@ -452,7 +453,7 @@ if docs:
                     if total_pages > MAX_PREVIEW_PAGES:
                         st.caption(f"Showing first {MAX_PREVIEW_PAGES} of {total_pages} pages.")
                     for i, (page_png, is_scanned) in enumerate(zip(pages, scanned_flags), 1):
-                        st.image(page_png, caption=f"Page {i} of {total_pages}", use_container_width=True)
+                        st.image(page_png, caption=f"Page {i} of {total_pages}", width="stretch")
                         if is_scanned:
                             ocr_state_key = f"ocr_{key}_{i}"
                             if st.button("📝 View extracted text (OCR)", key=f"ocrbtn_{key}_{i}"):
@@ -639,7 +640,7 @@ if analysed_docs:
                         key=f"resdl_{active_key}",
                     )
                 for i, (page_png, is_scanned) in enumerate(zip(pages, scanned_flags), 1):
-                    st.image(page_png, caption=f"Page {i} of {total_pages}", use_container_width=True)
+                    st.image(page_png, caption=f"Page {i} of {total_pages}", width="stretch")
                     if is_scanned:
                         ocr_state_key = f"ocr_{active_key}_{i}"
                         if st.button("📝 View extracted text (OCR)", key=f"ocrbtn_res_{active_key}_{i}"):
@@ -757,21 +758,39 @@ if analysed_docs:
 
         st.markdown('<hr class="divider">', unsafe_allow_html=True)
         if risks_list:
-            try:
-                pdf_bytes = generate_risk_pdf(
-                    risks_list,
-                    doc_name=meta.get("name", "document"),
-                    word_count=meta.get("words", 0),
-                )
-                st.download_button(
-                    "⬇️ Download Risk Report (.pdf)",
-                    data=pdf_bytes,
-                    file_name=f"risk_report_{meta.get('name','doc').rsplit('.',1)[0]}.pdf",
-                    mime="application/pdf",
-                    key=f"riskpdf_{active_key}",
-                )
-            except Exception as e:
-                st.error(f"Could not generate PDF report: {e}")
+            dl_col1, dl_col2 = st.columns(2)
+            with dl_col1:
+                try:
+                    pdf_bytes = generate_risk_pdf(
+                        risks_list,
+                        doc_name=meta.get("name", "document"),
+                        word_count=meta.get("words", 0),
+                    )
+                    st.download_button(
+                        "⬇️ Download Risk Report (.pdf)",
+                        data=pdf_bytes,
+                        file_name=f"risk_report_{meta.get('name','doc').rsplit('.',1)[0]}.pdf",
+                        mime="application/pdf",
+                        key=f"riskpdf_{active_key}",
+                    )
+                except Exception as e:
+                    st.error(f"Could not generate PDF report: {e}")
+            with dl_col2:
+                try:
+                    docx_bytes = build_redline_docx(
+                        meta.get("document_text", ""),
+                        risks_list,
+                        doc_name=meta.get("name", "document"),
+                    )
+                    st.download_button(
+                        "⬇️ Download Redlined Document (.docx)",
+                        data=docx_bytes,
+                        file_name=f"redlined_{meta.get('name','doc').rsplit('.',1)[0]}.docx",
+                        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                        key=f"redlinedl_{active_key}",
+                    )
+                except Exception as e:
+                    st.error(f"Could not generate redlined document: {e}")
 
     # ── Raw Text ──────────────────────────────────────────────────────────────
     with tab_raw:
