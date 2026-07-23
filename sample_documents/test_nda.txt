@@ -1,0 +1,70 @@
+NON-DISCLOSURE AGREEMENT
+
+This Non-Disclosure Agreement ("Agreement") is entered into as of January 1, 2025,
+between TechCorp Solutions Pvt Ltd, a company registered under the Companies Act 2013,
+having its registered office at 123 MG Road, Bangalore, Karnataka 560001 ("Disclosing Party")
+and Soureen Majumder, residing at 45 Park Street, Kolkata, West Bengal 700016
+("Receiving Party").
+
+1. CONFIDENTIAL INFORMATION
+The Receiving Party agrees to keep ALL information shared by the Disclosing Party
+strictly confidential FOREVER with no time limit whatsoever. This includes but is not
+limited to technical data, business strategies, financial information, customer lists,
+trade secrets, and any other information whether marked confidential or not.
+
+2. OBLIGATIONS OF RECEIVING PARTY
+The Receiving Party shall:
+a) Never disclose any confidential information to any third party under any circumstances.
+b) Use confidential information solely at the absolute discretion of the Disclosing Party.
+c) Sign any additional documents the Disclosing Party demands at any time without question.
+d) Not engage in any similar business anywhere in India for a period of 10 years.
+e) Not contact or solicit any employee or customer of the Disclosing Party forever.
+
+3. PAYMENT TERMS
+The Receiving Party shall pay TechCorp Solutions a monthly retainer fee of Rs 50,000
+starting from the date of signing. Payments delayed by even 1 day will attract a penalty
+of 5% per day compounded daily with no upper cap on the total penalty amount.
+
+4. LIABILITY
+In the event of any breach of this agreement, the Receiving Party shall be liable for
+ALL damages including direct, indirect, consequential, and punitive damages with
+absolutely no limitation on the amount. The Receiving Party waives all rights to
+contest the amount of damages claimed by the Disclosing Party.
+
+5. INTELLECTUAL PROPERTY
+Any idea, invention, or work product created by the Receiving Party during or after
+the term of this agreement, even using their own time and resources, shall be the
+sole and exclusive property of TechCorp Solutions Pvt Ltd irrevocably and forever.
+
+6. TERMINATION
+This agreement may be terminated by TechCorp Solutions at any time without notice
+and without any reason. The Receiving Party has no right to terminate this agreement
+under any circumstances. All obligations of the Receiving Party survive termination
+indefinitely.
+
+7. AUTO RENEWAL
+This agreement automatically renews every year. The Receiving Party must provide
+written notice of cancellation within 3 days before the renewal date or the agreement
+is automatically extended for another full year with increased fees of 20% per renewal.
+
+8. DISPUTE RESOLUTION
+All disputes shall be resolved exclusively by arbitration in San Francisco, California,
+USA under California law, at the sole cost of the Receiving Party regardless of outcome.
+The Receiving Party waives the right to approach any court in India.
+
+9. GOVERNING LAW
+This agreement is governed exclusively by the laws of California, USA notwithstanding
+that both parties are Indian residents and the work is performed in India.
+
+10. MISCELLANEOUS
+The Disclosing Party reserves the right to modify any terms of this agreement at any
+time without notice to the Receiving Party. Such modifications shall be immediately
+binding. The Receiving Party consents to receiving communications at any hour.
+The Disclosing Party may assign this agreement to any third party without consent.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first
+written above.
+
+TechCorp Solutions Pvt Ltd          Soureen Majumder
+Authorized Signatory                Receiving Party
+Date: January 1, 2025               Date: January 1, 2025
