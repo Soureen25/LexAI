@@ -48,16 +48,19 @@ Upload one or more legal documents, guided by a three-step workflow indicator an
 ### Multi-Document Upload & Overview Table
 Every uploaded file is tracked in a single overview table — name, type, size, word count, AI-identified document classification, and analysis status — with an expandable preview per document.
 
+<img width="1908" height="827" alt="Screenshot 2026-07-28 163431" src="https://github.com/user-attachments/assets/5a321a01-7e02-4b1d-bae6-aa00739a3547" />
 
 
 ### Document Summary
 A structured, ten-section, AI-generated summary — document type, parties involved, effective date & duration, obligations, payment terms, and more.
 
+<img width="1542" height="810" alt="Screenshot 2026-07-28 163533" src="https://github.com/user-attachments/assets/21a59505-8328-4cee-9183-e8a8b8f04d5f" />
 
 
 ### Risk Analysis — Flagged Clause Card
 Each identified risk is shown as a card with the exact flagged clause, a plain-English explanation of why it's risky, and a concrete suggested fix.
 
+<img width="1508" height="618" alt="Screenshot 2026-07-28 163600" src="https://github.com/user-attachments/assets/6722ae2b-903c-4809-b7c6-cbfbe6164ca5" />
 
 
 ### Risk Severity Filtering
