@@ -14,7 +14,7 @@ Upload any contract, NDA, lease, or agreement — one at a time or in batches.
 Get an instant plain-English summary and a structured, severity-ranked risk report, in under a minute.
 
 📺 **[Watch the Demo Video](https://drive.google.com/file/d/1ZWdF9gnsFAPjG6SdPd0ilw3hvjTMdquN/view?usp=sharing)** &nbsp;•&nbsp;
-📄 **[Full Project Report](https://drive.google.com/file/d/1cnit9e2w76T3_QrLz8YXNS2i7cQgwqw4/view?usp=sharing)** &nbsp;•&nbsp;
+📄 **[Full Project Report](https://drive.google.com/file/d/1O5KQjUKHQe-YYTOhUelJicElnrp5wb55/view?usp=sharing)** &nbsp;•&nbsp;
 📂 **[Sample Documents](https://github.com/Soureen25/LexAI/tree/main/sample_documents)**
 
 </div>
