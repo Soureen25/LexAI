@@ -79,20 +79,17 @@ Progressively narrow the view by severity — from High + Medium + Low, down to 
 
 ## ✨ Features
 
-| # | Feature | Status |
-|---|---|:---:|
-| 1 | Streamlit UI | ✅ Complete |
-| 2 | Digital PDF upload (single & multi-document) | ✅ Complete |
-| 3 | In-app document preview | ✅ Complete |
-| 4 | Digital PDF text extraction (PyPDF2) | ✅ Complete |
-| 5 | Claude-generated document summary | ✅ Complete |
-| 6 | AI-based risk analysis (High / Medium / Low) | ✅ Complete |
-| 7 | AWS Lambda + API Gateway backend | ✅ Complete |
-| 8 | Downloadable branded PDF risk report | ✅ Complete |
-| 9 | Scanned PDF support (Tesseract OCR) | 🟡 Partial — preview-only, not yet wired into full analysis |
-| 10 | Editable DOCX export with AI-suggested redlines | 🟡 In progress |
-| 11 | Full production deployment on AWS | 🟡 In progress |
-| 12 | End-to-end testing & bug fixing | 🟡 Ongoing |
+| # | Feature |
+|---|---|
+| 1 | Streamlit UI | 
+| 2 | Digital PDF upload (single & multi-document) | 
+| 3 | In-app document preview | 
+| 4 | Digital PDF text extraction (PyPDF2) | 
+| 5 | Claude-generated document summary | 
+| 6 | AI-based risk analysis (High / Medium / Low) | 
+| 7 | AWS Lambda + API Gateway backend | 
+| 8 | Downloadable branded PDF risk report | 
+
 
 **What gets analysed:**
 Document type & parties · Key dates & deadlines · Obligations & payment terms · Termination clauses · Governing law · Liability & indemnification risks · Confidentiality & IP · Dispute resolution · and more (15+ risk categories in total)
