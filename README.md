@@ -42,23 +42,23 @@ Get an instant plain-English summary and a structured, severity-ranked risk repo
 ### Landing Page
 Upload one or more legal documents, guided by a three-step workflow indicator and a sidebar explaining exactly what gets analysed.
 
-![Landing Page](<img width="1917" height="857" alt="image" src="https://github.com/user-attachments/assets/ef8e4b16-dd59-4b03-8caf-a9cd787cf162" />
-)
+<img width="1917" height="857" alt="Screenshot 2026-07-28 162741" src="https://github.com/user-attachments/assets/81352d20-7f68-408d-be7f-d90bdb7b5740" />
+
 
 ### Multi-Document Upload & Overview Table
 Every uploaded file is tracked in a single overview table — name, type, size, word count, AI-identified document classification, and analysis status — with an expandable preview per document.
 
-![Upload Table](screenshots/ui/upload_table.png)
+
 
 ### Document Summary
 A structured, ten-section, AI-generated summary — document type, parties involved, effective date & duration, obligations, payment terms, and more.
 
-![Document Summary](screenshots/ui/summary.png)
+
 
 ### Risk Analysis — Flagged Clause Card
 Each identified risk is shown as a card with the exact flagged clause, a plain-English explanation of why it's risky, and a concrete suggested fix.
 
-![High Risk Card](screenshots/ui/risk_high.png)
+
 
 ### Risk Severity Filtering
 Progressively narrow the view by severity — from High + Medium + Low, down to Medium & Low only, down to Low only — using the severity checkboxes.
