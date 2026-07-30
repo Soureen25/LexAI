@@ -42,7 +42,8 @@ Get an instant plain-English summary and a structured, severity-ranked risk repo
 ### Landing Page
 Upload one or more legal documents, guided by a three-step workflow indicator and a sidebar explaining exactly what gets analysed.
 
-![Landing Page](screenshots/ui/landing.png)
+![Landing Page](<img width="1917" height="857" alt="image" src="https://github.com/user-attachments/assets/ef8e4b16-dd59-4b03-8caf-a9cd787cf162" />
+)
 
 ### Multi-Document Upload & Overview Table
 Every uploaded file is tracked in a single overview table — name, type, size, word count, AI-identified document classification, and analysis status — with an expandable preview per document.
