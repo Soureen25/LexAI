@@ -68,7 +68,8 @@ Progressively narrow the view by severity — from High + Medium + Low, down to 
 
 <table>
 <tr>
-<td width="50%"><img src="screenshots/ui/filter_medium_low.png" alt="Medium and Low risks shown"/><p align="center"><sub>High unchecked — Medium & Low risks shown</sub></p></td>
+<td width="50%"><<img width="1535" height="553" alt="Screenshot 2026-07-28 163617" src="https://github.com/user-attachments/assets/e2a72543-2502-416a-a72c-152c2bfcd3f0" />
+><p align="center"><sub>High unchecked — Medium & Low risks shown</sub></p></td>
 <td width="50%"><img src="screenshots/ui/filter_low.png" alt="Low risks only"/><p align="center"><sub>High & Medium unchecked — Low risks only</sub></p></td>
 </tr>
 </table>
